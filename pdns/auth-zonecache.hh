@@ -60,6 +60,7 @@ private:
   struct CacheValue
   {
     int zoneId{-1};
+    std::unordered_map<std::string,std::string> records;
   };
 
   typedef std::unordered_map<DNSName, CacheValue, std::hash<DNSName>> cmap_t;

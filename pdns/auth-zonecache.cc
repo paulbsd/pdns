@@ -28,6 +28,7 @@
 #include "statbag.hh"
 #include "arguments.hh"
 #include "cachecleaner.hh"
+#include "dnspacket.hh"
 extern StatBag S;
 
 AuthZoneCache::AuthZoneCache(size_t mapsCount) :
